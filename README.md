@@ -537,6 +537,18 @@ cohesivity.ai offers free agent native backend services. Anonymous account (no-s
 | **Docs** | [Installation and client packages](https://github.com/cohesivity-org/cohesivity-plugin#readme) |
 | **Requires** | Node.js for the local MCP; OAuth sign-in for the remote management MCP at `https://cohesivity.ai/mcp/manage`. |
 
+### mountable.io
+
+Manage persistent agent filesystems and control their mount access through MCP.
+
+| | |
+|---|---|
+| **Repo** | [writeitai/mountable](https://github.com/writeitai/mountable) |
+| **Maintainer** | 🏷️ mountable.io (Official) |
+| **What it does** | Create and inspect filesystems, issue mount tickets and revoke mount sessions. |
+| **Docs** | [MCP setup](https://mountable.io/docs/mcp?utm_source=curated-lists-and-directories&utm_medium=directory_listing&utm_content=dir-wagner-devops) |
+| **Requires** | mountable.io API key, paid hosted service and local stdio server (`npx -y mountable-cli mcp`). |
+
 ### Other Platforms
 
 | Repo | Notes |
